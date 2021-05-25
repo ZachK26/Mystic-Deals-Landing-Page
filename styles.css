@@ -1,0 +1,71 @@
+h1 {
+  color: whitesmoke;
+  font-size: 40px;
+}
+body {
+  background-color: #373737;
+}
+p {
+  color: whitesmoke;
+}
+div.centerMe {
+  text-align: center;
+}
+a.button {
+  display: inline-block;
+  padding: 0 10px;
+  background: #2d2d2d;
+  border: 2px outset l#2d2d2d;
+  cursor: default;
+  font-size: 25px;
+  border-radius: 6px;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+a.button:active {
+  border-style: inset;
+}
+.glow-button:hover {
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
+}
+#content {
+  width: 1200px;
+  height: 254px;
+}
+
+#about_us {
+  background: url("images/noun_Alarm Clock_15824.png");
+  background-color: #2d2d2d;
+  width: 250px;
+  height: 307px;
+  float: left;
+  margin-top: -180px;
+  margin-left: 560px;
+  border-radius: 20px;
+}
+
+#our_services {
+  background-color: #2d2d2d;
+  width: 250px;
+  height: 307px;
+  float: left;
+  margin-top: -180px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+
+#contact_us {
+  background-color: #2d2d2d;
+  width: 250px;
+  height: 307px;
+  float: left;
+  margin-top: -180px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+img.resize {
+  width: 100px;
+  height: 100px;
+}
