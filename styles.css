@@ -4,7 +4,7 @@ h1 {
   font-size: 60px;
 }
 body {
-  background-color: #373737;
+  background-image: url("images/136632.jpg");
   width: 475px;
   padding: 5px;
   border-radius: 10px;
@@ -36,7 +36,7 @@ a.button {
   cursor: pointer;
   display: inline-block;
   padding: 0 10px;
-  background: #2d2d2d;
+  background-color: rgb(10, 10, 10, 0.7);
   border: 2px outset l#2d2d2d;
   cursor: default;
   font-size: 30px;
@@ -50,8 +50,7 @@ a.button:active {
 }
 .glow-button:hover {
   cursor: pointer;
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 0px 20px lightblue;
+  background-color: rgb(97, 97, 97, 0.7);
   transform: scaley(1.05);
   transform-origin: bottom;
 }
@@ -77,7 +76,7 @@ h2 {
 .ourMission {
   line-height: 30px;
   text-align: center;
-  background-color: #2d2d2d;
+  background-color: rgb(10, 10, 10, 0.7);
   width: 475px;
   padding: 5px;
   border-radius: 10px;
@@ -89,6 +88,7 @@ h2 {
   bottom: 0px;
   text-align: center;
   transition: 0.3s;
+  box-shadow: 10px 10px 40px black;
 }
 
 .ourMission:hover p {
